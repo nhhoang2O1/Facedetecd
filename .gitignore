@@ -1,0 +1,35 @@
+# Heavy datasets
+WIDER_train/
+Wider_train/
+WIDER_val/
+Wider_val/
+WIDER_test/
+Wider_test/
+wider_face_split/
+WIDER_train.rar
+
+# Preprocessed numpy files (Very heavy, ~8.5GB combined)
+x_train.npy
+y_train.npy
+x_val.npy
+y_val.npy
+
+# Python virtual environment and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE and check points
+.ipynb_checkpoints/
+.vscode/
+
+# Local test images
+huyen.jpg
+minh_gabor.jpg
+socolakeomut.jpg
+z6312730665742_b4cb42510d57e2d12700e40d617b6381.jpg
+couple.jpg
+
+# Ignore all markdown files as requested by user
+*.md
