@@ -24,7 +24,8 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 
-# Local test images
+# Local test images and all JPG files
+*.jpg
 huyen.jpg
 minh_gabor.jpg
 socolakeomut.jpg
@@ -33,3 +34,8 @@ couple.jpg
 
 # Ignore all markdown files as requested by user
 *.md
+
+# Helper scripts and raw WIDER FACE label files
+getImage.py
+wider_face_train_bbx_gt.txt
+wider_face_val_bbx_gt.txt
